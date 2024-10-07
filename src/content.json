@@ -1,0 +1,14 @@
+{
+    "about": {
+      "name": "Przemek Biernat",
+      "description": "Jestem pasjonatem technologii z doświadczeniem w pracy jako IT support. Chcę rozwijać swoją karierę w kierunku Data Engineeringu, ucząc się nowych technologii i procesów w IT" ,
+      "photo": "/images/polar.jpg"
+    },
+    "skills": [
+      "Zaawansowana znajomość programu Excel",
+      "Zaawansowana znajomość Power Bi",
+      "Podstawowa znajomość języka programowania Python, R, JavaScript",
+      "Zarządzanie serwerami przy użyciu Docker"
+    ]
+  }
+  
