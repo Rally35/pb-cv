@@ -9,6 +9,36 @@
       "Zaawansowana znajomość Power Bi",
       "Podstawowa znajomość języka programowania Python, R, JavaScript",
       "Zarządzanie serwerami przy użyciu Docker"
+    ],
+    "experience": [
+      {
+        "position": "IT Infrastructure Specialist",
+        "company": "Bosch Digital",
+        "period": "10.2022 - obecnie",
+        "description": "IT Support..."
+      },
+      {
+        "position": "Customer Master Data Specialist",
+        "company": "Wella",
+        "period": "01.2022 - 10.2022",
+        "description": "IT Support..."
+      },
+      {
+        "position": "Administrative Specialist",
+        "company": "DSV",
+        "period": "03.2021 - 12.2021",
+        "description": "IT Support..."
+      }
+    ],
+    "education": [
+      {
+        "degree": "Licencjat Informatyki",
+        "school": "Nazwa uczelni",
+        "year": "2019"
+      }
+    ],
+    "certificates": [
+      "IT Support w firmie Klaudia Biernat",
+      "IT Support w firmie Klaudia Biernat"
     ]
   }
-  
