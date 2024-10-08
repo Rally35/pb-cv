@@ -4,7 +4,7 @@ import { Element } from 'react-scroll';
 
 const About = ({ data }) => {
   return (
-    <Element name="Experience">
+    <Element name="experience">
         <Box sx={{ padding: '100px 20px', minHeight: '100vh' }}>
           <h2>Doświadczenie</h2>
           {data.experience && data.experience.map((exp, index) => (

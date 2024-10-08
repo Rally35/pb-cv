@@ -5,7 +5,11 @@ import { Link, Events, scrollSpy } from 'react-scroll';
 // Stworzenie własnego stylu dla aktywnej zakładki
 const StyledTab = styled(Tab)(({ theme, active }) => ({
   fontWeight: active ? 'bold' : 'normal',
-  color: active ? theme.palette.primary.main : 'inherit',
+  color: active ? theme.palette.primary.inherit : "inherit",
+  backgroundColor: active ? theme.palette.action.selected : 'transparent',
+  '&:hover': {
+    backgroundColor: theme.palette.action.hover,
+  },
 }));
 
 function Navigation() {
@@ -40,11 +44,13 @@ function Navigation() {
   ];
 
   return (
-    <AppBar position="fixed">
+    <AppBar position="fixed" color="primary" elevation={0}>
       <Tabs 
         value={activeTab} 
         onChange={(_, newValue) => setActiveTab(newValue)}
         variant="fullWidth"
+        indicatorColor="primary"
+        textColor="inherit"
       >
         {sections.map((section) => (
           <StyledTab
@@ -56,7 +62,7 @@ function Navigation() {
             spy={true}
             smooth={true}
             duration={500}
-            active={activeTab === section.id}
+            active={activeTab === section.id ? 1 : 0}
             onSetActive={handleSetActive}
           />
         ))}
