@@ -40,5 +40,12 @@
     "certificates": [
       "IT Support w firmie Klaudia Biernat",
       "IT Support w firmie Klaudia Biernat"
+    ],
+    "projects": [
+      {
+        "name": "Portfolio",
+        "description": "Moja własna strona internetowa",
+        "technologies": ["React", "Node.js", "Express"]
+      }
     ]
   }

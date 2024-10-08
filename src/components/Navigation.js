@@ -35,7 +35,8 @@ function Navigation() {
     { id: 'experience', label: 'Doświadczenie' },
     { id: 'education', label: 'Wykształcenie' },
     { id: 'certificates', label: 'Certyfikaty' },
-    { id: 'skills', label: 'Umiejętności' }
+    { id: 'skills', label: 'Umiejętności' },
+    { id: 'projects', label: 'Projekty' }
   ];
 
   return (
