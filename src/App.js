@@ -96,6 +96,21 @@ function App() {
           </List>
         </Box>
       </Element>
+
+      <Element name="projects">
+        <Box sx={{ padding: '100px 20px', minHeight: '100vh' }}>
+          <Typography variant="h4" gutterBottom>
+            Projekty
+          </Typography>
+          {data.projects && data.projects.map((project, index) => (
+            <Box key={index} sx={{ marginBottom: '20px' }}>
+              <Typography variant="h6">{project.name}</Typography>
+              <Typography variant="body1">{project.description}</Typography>
+              <Typography variant="body2">Technologie: {project.technologies.join(', ')}</Typography>
+            </Box>
+          ))}
+        </Box>
+      </Element>
     </div>
   );
 }
