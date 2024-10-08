@@ -4,6 +4,8 @@ import { Box, Avatar, Typography, List, ListItem, ListItemText } from '@mui/mate
 import { Element } from 'react-scroll';
 import content from './content.json';  // Import pliku JSON
 import './App.css';
+import About from './components/About';
+import Experience from './components/Experience';
 
 function App() {
   const [data, setData] = useState({});
@@ -21,41 +23,9 @@ function App() {
     <div>
       <Navigation />
       
-      <Element name="about">
-        <Box sx={{ 
-          display: 'flex', 
-          flexDirection: 'column', 
-          alignItems: 'center', 
-          padding: '100px 20px', 
-          minHeight: '100vh',
-          marginTop: '64px' // Dodaj margines górny, aby sekcja była widoczna pod paskiem nawigacyjnym
-        }}>
-          <Avatar
-            alt={data.about.name}
-            src={data.about.photo}  // Ładowanie zdjęcia z pliku JSON
-            sx={{ width: 150, height: 150, marginBottom: '20px' }}
-          />
-          <Typography variant="h4" gutterBottom>
-            {data.about.name}
-          </Typography>
-          <Typography variant="body1" align="center" sx={{ maxWidth: '600px' }}>
-            {data.about.description}
-          </Typography>
-        </Box>
-      </Element>
+      <About data={data} />
 
-      <Element name="experience">
-        <Box sx={{ padding: '100px 20px', minHeight: '100vh' }}>
-          <h2>Doświadczenie</h2>
-          {data.experience && data.experience.map((exp, index) => (
-            <div key={index}>
-              <h3>{exp.position} - {exp.company}</h3>
-              <p>{exp.period}</p>
-              <p>{exp.description}</p>
-            </div>
-          ))}
-        </Box>
-      </Element>
+      <Experience data={data} />
 
       <Element name="education">
         <Box sx={{ padding: '100px 20px', minHeight: '100vh' }}>
