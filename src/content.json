@@ -1,8 +1,10 @@
 {
     "about": {
-      "name": "Przemek Biernat",
-      "description": "Jestem pasjonatem technologii z doświadczeniem w pracy jako IT support. Chcę rozwijać swoją karierę w kierunku Data Engineeringu, ucząc się nowych technologii i procesów w IT" ,
-      "photo": "/images/polar.jpg"
+      "name": "Przemysław Biernat",
+      "description": "Jestem pasjonatem technologii z doświadczeniem w pracy jako IT support.Chcę rozwijać swoją karierę w kierunku Data Engineeringu, ucząc się nowych technologii i procesów w IT" ,
+      "photo": "/images/polar.jpg",
+      "email": "przemyslaw.biernat235@gmail.com",
+      "phone": "533 988 562"
     },
     "skills": [
       "Zaawansowana znajomość programu Excel",

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Box, Avatar, Typography } from '@mui/material';
+import { Box } from '@mui/material';
 import { Element } from 'react-scroll';
 
 const About = ({ data }) => {

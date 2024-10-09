@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import Navigation from './components/Navigation';
-import { Box, Avatar, Typography, List, ListItem, ListItemText } from '@mui/material';
+import { Box, Typography, List, ListItem, ListItemText } from '@mui/material';
 import { Element } from 'react-scroll';
 import content from './content.json';  // Import pliku JSON
 import './App.css';
